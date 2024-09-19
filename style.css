@@ -1,0 +1,28 @@
+body {
+    background-color: lightcyan;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightcoral;
+}
+
+.mylist {
+    text-align: center;
+    
+}
+
+.first-list {
+    color: lightslategray;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+    
+
+
+}
+
+
+

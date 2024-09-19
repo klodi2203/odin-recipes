@@ -1,0 +1,46 @@
+#bolognese {
+    background-color:cadetblue;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.recipeTitle1 {
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.img1 {
+    width: 500px;
+}
+
+.basicInfo {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.middle {
+    list-style-position: inside;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column;  
+        
+
+    
+}
+
+#list , #oList {
+    text-align: left;
+}
+
+.home {
+    font-size: 20px;
+    justify-content: center;
+}
