@@ -1,0 +1,57 @@
+/* index.html */
+
+#indexBody {
+    background-color: rgb(182, 235, 235);
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.list {
+    font-style: italic;
+    font-size: 20px;
+    color: brown;
+}
+
+.recipesBody {
+    background-color: aquamarine;
+}
+
+.recipeName {
+    color: rgb(250, 71, 71);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+
+}
+
+.para {
+    color: black;
+    font-weight: 200;
+}
+
+.para.oatmeal {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para.omelete {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para.chicken {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ingredients , .steps {
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+
+}
+
+.steps {
+    font-style: oblique;
+}
