@@ -1,7 +1,33 @@
 /* index.html */
 
-#indexBody {
+* {
+    box-sizing: border-box;
+    
+}
+
+#indexBody , .recipesBody {
     background-color: rgb(182, 235, 235);
+}
+
+#mainBody {
+    width: 600px;
+    padding-left: 130px;
+    border: 5px solid black;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(135, 179, 218);
+}
+
+.owner {
+        text-align: center; 
+        margin: 0 auto; 
+        width: fit-content; 
+        font-weight: bold; 
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    
 }
 
 .title {
@@ -10,48 +36,35 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+.parent {
+    list-style-position: inside;
+}
+
 .list {
     font-style: italic;
     font-size: 20px;
     color: brown;
+    padding-left: 30px;
 }
 
-.recipesBody {
-    background-color: aquamarine;
-}
-
-.recipeName {
-    color: rgb(250, 71, 71);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 34px;
-
-}
-
-.para {
-    color: black;
-    font-weight: 200;
-}
-
-.para.oatmeal {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.para.omelete {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.para.chicken {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.ingredients , .steps {
+.header {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center; 
     font-size: 30px;
     font-weight: bold;
-    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
+.container0 img, .container0 p {
+    display: inline-block;
 }
 
-.steps {
-    font-style: oblique;
+.container1 {
+    border: 2px solid rgb(2, 42, 58);
+    padding-left: 10px;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: rgb(135, 179, 218);
+
 }
