@@ -1,2 +1,3 @@
 # odin-recipes
-A simple recipes page
+This is a simple recipes page for improving my
+skills in HTML and CSS
