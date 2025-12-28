@@ -36,5 +36,59 @@ div img {
 .final-p {
     margin-top: 50px;
     text-align: center;
+    font-style: oblique;
+    font-size: 20px;
 }
+
+.recipes-title {
+    text-align: center;
+    text-decoration:underline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.recipes-img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
+.recipes-desc {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+.recipes-ingredients, .recipes-steps {
+    text-align: center;
+    
+}
+
+
+
+
+.recipes-ingredients ul, .recipes-steps ol {
+    list-style-type: none;
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+
+.footer {
+    text-align: center;
+}
+
+.recipes-steps ol {
+    list-style-type: decimali;
+}
+
+
 
